@@ -8,40 +8,51 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <h1 class="heading">Cash Register Manager</h1>
-      <p class="description">
-        Enter the bill amount and cash given by the counter and know minimum
-        number of notes to return.
-      </p>
-      <label for="bill-amount">Bill Amount</label>
-      <input type="text" id="bill-amount" /><br />
-      <label for="cash-given">Cash Given</label>
-      <input type="text" id="cash-given" /><br />
-      <button>Click!</button>
-      <p id="error-message"></p>
+    <div class="test">
+      <div class="container">
+        <h1 class="heading pad10">Cash Register Manager</h1>
+        <p class="description pad10">
+          Enter the bill amount and cash given by the counter and know minimum
+          number of notes to return.
+        </p>
 
-      <table class="change-table">
-        <caption>
-          Return Change
-        </caption>
-        <tr>
-          <th>No of Notes</th>
-          <td></td>
-        </tr>
-        <tr>
-          <th>Notes</th>
-          <td>2000</td>
-          <td>500</td>
-          <td>100</td>
-          <td>20</td>
-          <td>10</td>
-          <td>5</td>
-          <td>1</td>
-        </tr>
-      </table>
+        <div class="div">
+          <label class="pad10" for="bill-amount">Bill Amount</label>
+          <input type="text" id="bill-amount" /><br />
+          <label class="pad10" for="cash-given">Cash Given</label>
+          <input type="text" id="cash-given" /><br />
+
+          <button class="button" id="check-button">Click!</button>
+          <p id="error-message"></p>
+        </div>
+
+        <table class="change-table">
+          <caption class="pad10">
+            Return Change
+          </caption>
+          <tr>
+            <th>No of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+          </tr>
+          <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
     </div>
-
     <script src="index.js"></script>
   </body>
 </html>

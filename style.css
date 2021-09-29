@@ -3,8 +3,35 @@
   padding: 0px;
 }
 
+.test {
+  position: relative;
+  background-color: #ffd9b0;
+  height: 100vh;
+  width: 100vw;
+}
+
 .container {
+  position: absolute;
+  top: 25%;
+  left: 25%;
   display: flex;
   flex-direction: column;
   width: 50vw;
+  border-radius: 5px;
+  height: 400px;
+  background-color: #111;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.pad10 {
+  padding: 10px;
+}
+.button {
+  height: 30px;
+  width: 50px;
+  text-align: center;
+}
+.div {
+  text-align: center;
 }
